@@ -10,5 +10,5 @@ int main()
     {
         factorial *= i;
     }
-    cout << "Factorial of " << n << " = " << factorial << endl;
+    cout << "Factorial of " << n ;
 }
