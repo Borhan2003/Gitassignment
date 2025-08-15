@@ -11,5 +11,7 @@ int main()
         factorial *= i;
     }
     cout << "Factorial of " << n ;
+    cout << " is " << factorial << endl;
+    cout<< "Thank you for using the factorial calculator!" << endl;
     
 }
