@@ -11,4 +11,17 @@ int main()
         factorial *= i;
     }
     cout << "Factorial of " << n ;
+    cout << "Factorial of " << n << " = " << factorial << endl;
+    long long a = 0, b = 1;
+    cout << "Fibonacci sequence: ";
+
+    for (int i = 0; i < n; i++)
+    {
+        cout << a << " ";
+        long long next = a + b;
+        a = b;
+        b = next;
+    }
+    cout << endl;
+    //new line added
 }
