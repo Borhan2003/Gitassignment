@@ -1,6 +1,14 @@
-#include<bits/stdc++.h>
+#include <bits/stdc++.h>
 using namespace std;
-int main() {
-    cout << "Hello, World!" << endl;
-    return 0;
+int main()
+{
+    int n;
+    cout << "Enter a number: ";
+    cin >> n;
+    long long factorial = 1;
+    for (int i = 1; i <= n; i++)
+    {
+        factorial *= i;
+    }
+    cout << "Factorial of " << n << " = " << factorial << endl;
 }
